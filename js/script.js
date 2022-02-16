@@ -23,7 +23,5 @@ let a = prompt("Последний просмотренный фильм?", ""),
   c = prompt("Последний просмотренный фильм?", ""),
   d = prompt("На сколько оцените его?", "");
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
-
-
+personalMovieDB.movies.a = b;
+personalMovieDB.movies.c = d;
